@@ -14,7 +14,7 @@
 
 ## Установка и запуск
 
-Распакуйте архив проекта. Первую команду выполните в PowerShell из родительского каталога папки проекта. Остальные команды выполняются из корня проекта, содержащего `compose.yaml`, `seed.py` и `requirements.lock.txt`.
+Склонируйте [репозиторий проекта](https://github.com/Shelbyyy777/artem_yankovoy_oksp_hw1) командой git clone https://github.com/Shelbyyy777/artem_yankovoy_oksp_hw1.git или распакуйте архив проекта. Первую команду выполните в PowerShell из родительского каталога папки проекта. Остальные команды выполняются из корня проекта, содержащего `compose.yaml`, `seed.py` и `requirements.lock.txt`.
 
 ```powershell
 cd artem_yankovoy_oksp_hw1
