@@ -1,0 +1,27 @@
+{
+  "project": "artem_yankovoy_hw1",
+  "schema": "artem_yankovoy",
+  "profile": "work",
+  "random_seed": 42,
+  "counts": {
+    "users": 1,
+    "specialists": 200,
+    "services": 30,
+    "slots": 200000,
+    "appointments": 50000
+  },
+  "cancelled_appointments": 10000,
+  "content_sha256": "362b5eac9dea2c50727ebc215915d3d23effc63e0c747095938c94fe7f9595a0",
+  "table_checksums_md5": {
+    "users": "954b3c7495a5cf4e56afdf5bd19fba9c",
+    "specialists": "51af5a6befd8c4d72727ccd5f9f34e47",
+    "services": "095b5539022407194e9b07d2560120c1",
+    "slots": "c32911bfda41615a88841dd86a726432",
+    "appointments": "b0ce7c924ec227c698540e49b080ed21"
+  },
+  "username": "artem_yankovoy",
+  "period": {
+    "from_at": "2026-10-01T00:00:00",
+    "to_at": "2027-10-01T00:00:00"
+  }
+}

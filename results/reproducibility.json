@@ -1,0 +1,129 @@
+{
+  "checked_at_utc": "2026-10-05T18:37:51.870840+00:00",
+  "prefix": "artem_yankovoy",
+  "schema": "artem_yankovoy_test",
+  "method": "two independent seeded runs; counts and ordered row checksums read by PostgreSQL",
+  "profiles": {
+    "small": {
+      "run1": {
+        "project": "artem_yankovoy_hw1",
+        "schema": "artem_yankovoy_test",
+        "profile": "small",
+        "random_seed": 42,
+        "counts": {
+          "users": 1,
+          "specialists": 10,
+          "services": 10,
+          "slots": 500,
+          "appointments": 300
+        },
+        "cancelled_appointments": 60,
+        "content_sha256": "cdaa8fb9461d6a4865eb35d833cc244f672c419075ecc14f577483a466b23b09",
+        "table_checksums_md5": {
+          "users": "954b3c7495a5cf4e56afdf5bd19fba9c",
+          "specialists": "79f8048b83f371e18fa84843f36eddb5",
+          "services": "cf109f49b6570b1c4b09ffbd9df5c3e4",
+          "slots": "effed73a61355bc6af2e51f4c52003ce",
+          "appointments": "ce9e20b100d5e09387c219bcf5e5780c"
+        },
+        "username": "artem_yankovoy",
+        "period": {
+          "from_at": "2026-10-01T00:00:00",
+          "to_at": "2027-10-01T00:00:00"
+        }
+      },
+      "run2": {
+        "project": "artem_yankovoy_hw1",
+        "schema": "artem_yankovoy_test",
+        "profile": "small",
+        "random_seed": 42,
+        "counts": {
+          "users": 1,
+          "specialists": 10,
+          "services": 10,
+          "slots": 500,
+          "appointments": 300
+        },
+        "cancelled_appointments": 60,
+        "content_sha256": "cdaa8fb9461d6a4865eb35d833cc244f672c419075ecc14f577483a466b23b09",
+        "table_checksums_md5": {
+          "users": "954b3c7495a5cf4e56afdf5bd19fba9c",
+          "specialists": "79f8048b83f371e18fa84843f36eddb5",
+          "services": "cf109f49b6570b1c4b09ffbd9df5c3e4",
+          "slots": "effed73a61355bc6af2e51f4c52003ce",
+          "appointments": "ce9e20b100d5e09387c219bcf5e5780c"
+        },
+        "username": "artem_yankovoy",
+        "period": {
+          "from_at": "2026-10-01T00:00:00",
+          "to_at": "2027-10-01T00:00:00"
+        }
+      },
+      "counts_equal": true,
+      "table_checksums_equal": true,
+      "content_sha256_equal": true,
+      "ok": true
+    },
+    "work": {
+      "run1": {
+        "project": "artem_yankovoy_hw1",
+        "schema": "artem_yankovoy_test",
+        "profile": "work",
+        "random_seed": 42,
+        "counts": {
+          "users": 1,
+          "specialists": 200,
+          "services": 30,
+          "slots": 200000,
+          "appointments": 50000
+        },
+        "cancelled_appointments": 10000,
+        "content_sha256": "362b5eac9dea2c50727ebc215915d3d23effc63e0c747095938c94fe7f9595a0",
+        "table_checksums_md5": {
+          "users": "954b3c7495a5cf4e56afdf5bd19fba9c",
+          "specialists": "51af5a6befd8c4d72727ccd5f9f34e47",
+          "services": "095b5539022407194e9b07d2560120c1",
+          "slots": "c32911bfda41615a88841dd86a726432",
+          "appointments": "b0ce7c924ec227c698540e49b080ed21"
+        },
+        "username": "artem_yankovoy",
+        "period": {
+          "from_at": "2026-10-01T00:00:00",
+          "to_at": "2027-10-01T00:00:00"
+        }
+      },
+      "run2": {
+        "project": "artem_yankovoy_hw1",
+        "schema": "artem_yankovoy_test",
+        "profile": "work",
+        "random_seed": 42,
+        "counts": {
+          "users": 1,
+          "specialists": 200,
+          "services": 30,
+          "slots": 200000,
+          "appointments": 50000
+        },
+        "cancelled_appointments": 10000,
+        "content_sha256": "362b5eac9dea2c50727ebc215915d3d23effc63e0c747095938c94fe7f9595a0",
+        "table_checksums_md5": {
+          "users": "954b3c7495a5cf4e56afdf5bd19fba9c",
+          "specialists": "51af5a6befd8c4d72727ccd5f9f34e47",
+          "services": "095b5539022407194e9b07d2560120c1",
+          "slots": "c32911bfda41615a88841dd86a726432",
+          "appointments": "b0ce7c924ec227c698540e49b080ed21"
+        },
+        "username": "artem_yankovoy",
+        "period": {
+          "from_at": "2026-10-01T00:00:00",
+          "to_at": "2027-10-01T00:00:00"
+        }
+      },
+      "counts_equal": true,
+      "table_checksums_equal": true,
+      "content_sha256_equal": true,
+      "ok": true
+    }
+  },
+  "ok": true
+}

@@ -1,0 +1,12 @@
+artem_yankovoy — ДЗ 1; pytest -q
+Прогон: 05.10.2026; отдельная схема artem_yankovoy_test.
+Рабочая схема artem_yankovoy не изменяется тестами.
+
+.................................................                        [100%]
+============================== warnings summary ===============================
+..\..\work\pydeps-sandbox\starlette\testclient.py:51
+  C:\Users\User\Documents\Codex\2026-10-05\new-chat-2\work\pydeps-sandbox\starlette\testclient.py:51: DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+    _PortalFactoryType = Callable[[], AbstractContextManager[anyio.abc.BlockingPortal]]
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+49 passed, 1 warning in 8.67s

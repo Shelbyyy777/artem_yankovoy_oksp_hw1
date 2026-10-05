@@ -1,0 +1,19 @@
+name: artem_yankovoy_hw1
+services:
+  db:
+    image: postgres:16.15
+    environment:
+      POSTGRES_USER: app
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-changeme}
+      POSTGRES_DB: artem_yankovoy_hw1
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    volumes:
+      - artem_yankovoy_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U app -d artem_yankovoy_hw1"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+volumes:
+  artem_yankovoy_pgdata:
